@@ -330,10 +330,12 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Design"
-          title={<h1>We build award winning Designs</h1>}
+          title={<h1>We develop social media strategy</h1>}
           subText={
             <h5>
-              We help clients to build great design to attract more customers
+              We help clients navigate the dynamic digital landscape by crafting tailored social media strategies.
+               From pinpointing target audiences to selecting the most impactful platforms, 
+               we guide businesses toward effective engagement and sustainable growth
             </h5>
           }
         />
@@ -345,11 +347,12 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Develop"
-          title={<h1>We Develope high quality Web & App</h1>}
+          title={<h1>Content Creation and Management</h1>}
           subText={
             <h5>
-              We build appropriate solution to develope your website & app with
-              best tools available
+              We empower brands to captivate audiences through compelling storytelling.
+               Our team excels at creating and managing diverse, high-quality content—text, 
+               images, and videos—that not only resonates with the audience but also builds lasting connections
             </h5>
           }
         />
@@ -361,12 +364,12 @@ const Services = () => {
       <Content>
         <TextBlock
           topic="Support"
-          title={<h1>We provide support for your digital presence</h1>}
+          title={<h1>Analytics and Reporting</h1>}
           subText={
             <h5>
-              Once your system is online, we will stay on hand to help you use
-              it and provide technical support and maintenance <br /> your
-              business
+              Unlock the power of data with our analytics and reporting services. 
+              We help clients decode the performance of their social media campaigns, offering valuable insights to optimize strategies.
+               From tracking key metrics to delivering actionable recommendations, we transform data into business success
             </h5>
           }
         />

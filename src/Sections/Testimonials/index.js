@@ -84,27 +84,31 @@ const Testimonials = () => {
       <Carousal>
         <Slider {...settings}>
           <Card
-            text="Market Mind has been essential part of our business. I would definetly
-        recommend Market Mind. It has been amazing to have them."
-            name="Jenny (CodeCall)"
+            text="Exceptional service! From a comprehensive strategy to engaging content, they exceeded our expectations. 
+            The impact on brand visibility and customer engagement is remarkable. Thrilled with the outcomes!"
+            name="Luna"
             image="avatar-1"
           />
 
           <Card
-            text="Market Mind has been essential part of our business. I would definetly recommend Market Mind. It has been amazing to have them."
-            name="Jenny (CodeCall)"
+            text="Revolutionized our online presence! 
+            Their strategic approach and engaging content transformed our brand. 
+            A trusted partner for navigating the digital landscape!"
+            name="Milos"
             image="avatar-2"
           />
 
           <Card
-            text="Market Mind has been essential part of our business. I would definetly recommend Market Mind. It has been amazing to have them."
-            name="Jenny (CodeCall)"
+            text="Incredible results! Their social media strategy boosted our reach and enhanced our brand identity. 
+            Creative content and invaluable analytics insights make them our go-to experts!"
+            name="Tatjana"
             image="avatar-3"
           />
 
           <Card
-            text="Market Mind has been essential part of our business. I would definetly recommend Market Mind. It has been amazing to have them."
-            name="Jenny (CodeCall)"
+            text="One of our best decisions! Their dedication to understanding our brand is evident in every post. 
+            Thorough analytics and continuous optimization led to tangible business growth. A top-tier social media partner!"
+            name="Alex"
             image="avatar-4"
           />
         </Slider>

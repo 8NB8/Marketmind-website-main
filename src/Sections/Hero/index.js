@@ -191,16 +191,16 @@ const HeroSection = () => {
         <Lb id="leftBlock">
           <Topic>
             <Circle />
-            <span>We Build Web</span>
+            <span>We help you grow</span>
           </Topic>
           <Title>Transforming your digital presence</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            We develop strategic social media solutions for business growth
           </SubText>
-          <CTA>
+          {/* <CTA>
             Get in touch &nbsp;
             <img src={arrow} alt="cta" width="100" height="100" />
-          </CTA>
+          </CTA> */}
         </Lb>
 
         <MobileSvg

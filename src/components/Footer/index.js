@@ -54,15 +54,11 @@ const Footer = () => {
       </LeftText>
       <RightText>
         Reach out to us via
-        {/* <a href="https://twitter.com/code_bucks">
-          <img src={Twitter} alt="Twitter" />
-        </a> */}
+    
         &nbsp;
-        <a href="https://www.instagram.com/marketmind/">
-          <img src={Instagram} alt="Instagram" />
-        </a>
+        
         &nbsp;
-        <a href="mailto:marketmind@gmail.com?subject=Email From Your Website">
+        <a href="mailto:rtomasevic97@gmail.com?subject=Email From Your Website">
           <img src={Gmail} alt="Gmail" />
         </a>
       </RightText>

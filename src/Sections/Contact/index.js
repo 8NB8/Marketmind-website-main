@@ -3,6 +3,8 @@ import LinkedId from "../../assets/linkedin-brands.svg";
 import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
 import styled from "styled-components";
+import Gmail from "../../assets/envelope-open-solid.svg";
+
 
 const ContactSection = styled.section`
   width: 100vw;
@@ -129,7 +131,7 @@ const Contact = () => {
     <ContactSection id="contact">
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
-      <Icons>
+      {/* <Icons>
         <a href="https://www.facebook.com/">
           {" "}
           <img src={Facebook} alt="Facebook" />
@@ -143,31 +145,36 @@ const Contact = () => {
         <a href="https://www.instagram.com/">
           <img src={Instagram} alt="Instagram" />
         </a>
+      </Icons> */}
+      <Icons>
+      <a href="mailto:rtomasevic97@gmail.com?subject=Email From Your Website">
+          <img src={Gmail} alt="Gmail" />
+        </a>
       </Icons>
       <Form>
-        <Row>
+        {/* <Row>
           <input name="name" type="text" placeholder="your name" />
           <input
             name="email"
             type="email"
-            placeholder="enter working email id"
+            placeholder="enter email"
           />
-        </Row>
-        <textarea
+        </Row> */}
+        {/* <textarea
           name=""
           id=""
           cols="30"
           rows="2"
           placeholder="your message"
-        ></textarea>
+        ></textarea> */}
         <div style={{ margin: "0 auto" }}>
-          <button
+          {/* <button
             onClick={(e) => {
               e.preventDefault();
             }}
           >
-            Submit
-          </button>
+            Send
+          </button> */}
         </div>
       </Form>
     </ContactSection>
